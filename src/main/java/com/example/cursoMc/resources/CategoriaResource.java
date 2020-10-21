@@ -18,7 +18,7 @@ public class CategoriaResource {
 		Categoria c1 = new Categoria(1,"Refrigerante");
 		Categoria c2 = new Categoria(2,"Lanches");
 		
-		List<Categoria> listCategoria = new ArrayList();
+		List<Categoria> listCategoria = new ArrayList<Categoria>();
 		listCategoria.add(c1);
 		listCategoria.add(c2);
 		
